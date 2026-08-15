@@ -1,0 +1,16 @@
+## Build output
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+.vs/
+
+## Runtime data
+tasks.json
+
+## Secrets — DO NOT commit appsettings.json with real API keys
+## Before pushing, replace the Geoapify ApiKey value with an empty string
+## and use environment variables on your deployment server instead
+appsettings.Development.json
